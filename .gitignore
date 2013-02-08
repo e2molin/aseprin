@@ -1,0 +1,10 @@
+#Ignora los archivos de sistema
+.DS_Store
+
+#Ignora directorios de recursos de imágenes
+_imgdesign
+
+#Ignora archivos para no subir
+.tmp_*
+.project*
+

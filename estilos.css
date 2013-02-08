@@ -1,0 +1,428 @@
+/*Archivo CSS basico*/
+
+body{
+	/*background: #C0D9D9 url('imgdir/fondo1.jpg') repeat;*/
+	background: #CCCACA;
+	font : 8pt tahoma,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color : #666666;
+	margin : 20px 0px 20px 0px;
+	text-align : left;
+	/*
+	scrollbar-face-color: #A28D68;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-track-color: #A28D68;
+	scrollbar-arrow-color: #000000; 
+	*/
+	}
+
+A.enlacenav, A.enlacenav:visited, A.enlacenav:active, A.enlacenav:focus, A.enlacenav:link{
+											color:#4c1653;
+											}
+A.enlacenav:hover{
+		color:#4c1653;
+		background-color:#cccccc;
+		}
+/*------DEFINICION DEL MENU LATERAL----------*/	
+ul#menulateral {  
+			list-style:none;
+			padding:0 0 0 0;
+			margin:0;
+			}
+ul#menulateral li {
+			margin:2px;	/*Separacion entre los ietems del menu lateral*/
+			padding:0;
+			float:left;
+			}
+ul#menulateral li a {
+			display:block;
+			width:150px;
+			padding:4px 0;
+			text-decoration:none;
+			text-align:center;
+			font-size:11px;
+			color:#FFFFFF;
+			/*background-color:#68729e;      El color de fondo del menu*/
+			background-color:#880038;      /*El color de fondo del menu*/ 
+			border-left:10px solid #666666;/*Este es el margen que queda a la izquierda del item del menu*/
+			}
+ul#menulateral li a:hover {
+			color:#000000;		       /*El color de las letras*/
+			background-color:#E7CBCF;
+			/*background-color:#C0D9D9;*/
+			border-left-color:#bd7683;
+			}
+/*------------------------------------------*/	
+
+
+#contenedor{
+	text-align:left;
+	width:800px;
+	height:600px;
+	background-color:#00ffff;
+	margin: auto;
+	}
+
+#cabecera{
+	position:relative;
+	height: 100px;
+	width: 800px;
+	background-color:#816b82;
+	background: #C0D9D9 url('imgdir/Cabecera.png');
+	}
+	/*
+	Con la utilizacion del atributo FLOAT permitimos que haya dos ventanas flotando una al lado de otra.
+	Si no lo pusieramos, aparecerian una acontinuacion de otra sin dar la sensacion de dos columnas
+	*/
+#navegadormenu{
+	position:relative;
+	height: 16px;
+	width: 800px;
+	padding:3px 0px 3px 0px;
+	background-color:#E7CBCF;
+	/*background : #C0D9D9 url('imgdir/fondonav.gif') repeat;*/
+	border-top:0px solid #cccccc;
+	border-bottom:0px solid #cccccc;
+	}
+#cuerpo{
+	position:relative;
+	width:800px;
+	/*height:500px;*/
+	padding:0px 0px 0px 0px;
+	background-color:#DCC697;
+	float:left;
+	}
+#piepag{
+	position:relative;
+	width: 800px;
+	height: 20px;
+	padding:0px 0px 0px 0px;
+	/*background-color:#C0D9D9;*/
+	background-color:#bd7683;
+	color:#000000;
+	float:left;	
+	font-size:8pt;
+	}
+#PanelLateral{
+	width: 175px;
+	float:left;
+	background-color: #00ff00;
+	}
+#PanelMenuLateral{
+	/*position:relative;*/
+	/*float:left;*/
+	/*top: 0px;*/
+	/*left:0px;*/
+	/*z-index:0;*/
+	/*width:175px;*/
+	height:225px;
+	background-color:#DCC697;
+	border-top:0px solid #68729e;
+	border-bottom:0px solid #68729e;
+	border-left:0px solid #68729e;
+	border-right:0px solid #68729e;
+}
+#PanelLogoLateral{
+	/*position:relative;*/
+	/*top: 225px;*/
+	/*left:-175px;*/
+	/*z-index:0;*/
+	/*float:left;*/
+	/*width:175px;*/
+	height:275px;
+	background-color:#EBF2FE;
+	border-top:0px solid #68729e;
+	border-bottom:0px solid #68729e;
+	border-left:0px solid #68729e;
+	border-right:0px solid #68729e;
+}
+#PanelContexto{
+	float:right;
+	width:615px;
+	color : #000000;
+	background-color:#DCC697;
+	font-size: 8pt;
+	font-family : Helvetica,Tahoma,Verdana, Geneva, Arial,sans-serif;
+	padding:5px 5px 5x 5px;
+	margin:5px 5px 5px 5px;
+	border-top:0px solid #68729e;
+	border-bottom:0px solid #68729e;
+	border-left:0px solid #68729e;
+	border-right:0px solid #68729e;
+	text-align: justify;
+	line-height:1.5;
+}
+
+h1.encabezadoContexto{
+	background-color:#880038;
+	color:#ffffff;
+	font-size:10pt;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:7px 3px 7px 3px;
+}
+p.Contexto{
+	background: #CCCACA;
+	fon-family : Tahoma,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color : #EBF2FE;
+	margin : 20px 0px 20px 0px;
+	text-align : left;
+}
+b.NomArticulo{
+	color:#003399;
+	font-size:8pt;
+	font-weight:bold;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	font-style: italic;
+}
+h3.NomCapitulo{
+	font-weight:bold;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	font-size:12pt;
+}
+p.Contexto{
+	color:#000000;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	/*line-height:3;*/
+	font-size:10pt;
+	font-weight:bold;
+}
+p.Informacion{
+	color:#000000;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	line-height:2.5;
+}
+label.Etiq_Pres{
+	font-size:8pt;
+	font-weight:bold;
+	color:#000000;
+	text-align:right;
+	width:150px;
+	float:left;
+}
+input.entrada{
+	font-size:8pt;
+	color:#000000;
+	background-color:#C0D9D9;
+	margin:2px 0;
+}
+input.Btn_Envio{
+	font-size:8pt;
+	color:#000000;
+	float:right;
+	font-weight:bold;
+	padding:1px 3px 1px 3px;
+}
+input.Btn_User{
+	font-size:8pt;
+	color:#000000;
+	font-weight:bold;
+	padding:1px 3px 1px 3px;
+	margin:1px 3px 1px 3px;
+}
+select.entrada{
+	font-size:8pt;
+	color:#000000;
+	background-color:#C0D9D9;
+	margin:2px 0;
+}
+textarea.entrada_memo{
+	font-size:8pt;
+	color:#000000;
+	background-color:#C0D9D9;
+	margin:2px 0;
+}
+br{
+clear: left;
+}
+h2.Formulario{
+	color:#003399;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	font-style: italic;
+}
+p.contacto{
+	color:#003399;
+	font-size:10pt;
+	font-weight:bold;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	font-style: italic;
+	text-align:center;
+	line-height:2.5;
+}
+font.aseprin{
+	font-weight:bold;
+	font-family:Helvetica,tahoma,Verdana, Geneva, Arial,sans-serif;
+	color:#880038;
+}
+div.panel_ofertas{
+	width:400px;
+	padding:3px;
+	background-color:#C0D9D9;
+	border: 1px solid #68729e;/*Estilo y color del borde del panel*/
+}
+td.cabecerapanelresultados{
+	font-size:8pt;
+	font-weight:bold;
+	color:#000000;
+}
+td.panelresultados{
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+/***********************************************************************************************************/
+
+h2.encabezadoPanel{
+	background-color:#68729e;
+	color:#ffffff;
+	font-size:10pt;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+	padding:7px 3px 7px 3px;
+}
+#Referencia{
+	position:relative;
+	width:220px;
+	height:220px;
+	cursor: crosshair;
+	background-color:#EBF2FE;
+	letter-spacing:0.1em;
+	border-top:1px solid #68729e;
+	border-bottom:1px solid #68729e;
+	border-left:1px solid #68729e;
+	border-right:1px solid #68729e;
+	padding:0px 0px 0px 0px;
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+#PanelPOI{
+	position:relative;
+	top:5px;
+	width:220px;
+	height:250px;
+	cursor: crosshair;
+	background-color:#EBF2FE;
+	letter-spacing:0.1em;
+	border-top:1px solid #68729e;
+	border-bottom:1px solid #68729e;
+	border-left:1px solid #68729e;
+	border-right:1px solid #68729e;
+	padding:0px 0px 0px 0px;
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+#InfoVarias{
+	position:relative;
+	top:5px;
+	width:220px;
+	height:100px;
+	cursor: crosshair;
+	background-color:#EBF2FE;
+	letter-spacing:0.1em;
+	border-top:1px solid #68729e;
+	border-bottom:1px solid #68729e;
+	border-left:1px solid #68729e;
+	border-right:1px solid #68729e;
+	padding:0px 0px 0px 0px;
+	margin:0px 10px 0px 0px;
+	float:right;
+}
+}
+div.panelconsulta{
+	font-size:8pt;
+	color:#68729e;
+	position: relative;
+	left: 5px;
+	top: 0px;
+	width: 230px;
+	background-color:#c3c3c3;
+	border-top:1px solid #68729e;
+	border-bottom:1px solid #68729e;
+	border-left:1px solid #68729e;
+	border-right:1px solid #68729e;
+	float:left;
+}
+td.panelresultados{
+	font-size:8pt;
+	font-weight:normal;
+	color:#000000;
+}
+
+#ResulPOI{
+	position: relative;
+	width: 550px;
+	top:0px;	
+	left:10px;
+	padding:3px;
+	background-color: #FFF4D0;
+	border: 1px solid #E8A400;
+}
+#Zoom_E{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: no-repeat;
+    background-color:#EBF2FE;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    WIDTH: 60px;
+    HEIGHT:24px;
+		}
+#Zoom_Mas{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url(imgdir/button_zoomIn_mini.png);
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: no-repeat;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    WIDTH: 60px;
+    HEIGHT:24px;
+		}
+#Zoom_Menos{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url(imgdir/button_zoomOut_mini.png);
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: no-repeat;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    WIDTH: 60px;
+    HEIGHT:24px;
+		}
+
+#Zoom_Pan{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url(imgdir/button_pan_mini.png);
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: no-repeat;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    WIDTH: 60px;
+    HEIGHT:24px;
+		}
+#Zoom_Iden{
+    BACKGROUND-ATTACHMENT: fixed;
+    BACKGROUND-IMAGE: url(imgdir/button_iden_mini.png);
+    BACKGROUND-POSITION: right center;
+    BACKGROUND-REPEAT: no-repeat;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    WIDTH: 60px;
+    HEIGHT:24px;
+		}
